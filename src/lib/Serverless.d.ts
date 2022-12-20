@@ -66,6 +66,9 @@ export interface IServerlessOptions {
     function?: string;
     watch?: boolean;
     extraServicePath?: string;
+    httpPort?: number;
+    lambdaPort?: number;
+    noPrependStageInUrl?: boolean;
 }
 
 export interface IServerlessEvent {
